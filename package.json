@@ -5,12 +5,16 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --no-cache",
-    "build": "parcel build"
+    "build": "parcel build",
+    "start:db": "json-server -w db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
   }
 }
